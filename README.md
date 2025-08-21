@@ -5,7 +5,7 @@ A modern portfolio web application built with **Streamlit**, designed to showcas
 ---
 
 ## 🚀 Live Demo
-👉 [Click here to view the app](https://your-streamlit-deployment-link)  
+👉 [Click here to view the app]([https://your-streamlit-deployment-link](https://fazil-behbudov-portfolio-app-home-dnp53a.streamlit.app/))  
 
 ---
 
@@ -88,3 +88,4 @@ This project is licensed under the MIT License.
 🔗 [GitHub Profile](https://github.com/Fazil-Behbudov)  
 
 ---
+
