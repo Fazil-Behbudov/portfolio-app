@@ -2,23 +2,6 @@
 
 A personal portfolio website built entirely in Python to showcase coding projects and apps.
 
-## Table of Contents
-- [About](#about)
-- [Demo](#demo)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the App](#running-the-app)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
 
 ## About
 This project is a personal portfolio site developed with Python. It serves as a showcase for programming projects and applications.
@@ -105,3 +88,4 @@ Contributions are welcome!
 Fazil Behbudov — [your email or portfolio link]
 
 Project Link: [https://github.com/Fazil-Behbudov/portfolio-app](https://github.com/Fazil-Behbudov/portfolio-app)
+
