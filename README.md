@@ -1,91 +1,90 @@
-# Portfolio App
+# 🌐 Portfolio App
 
-A personal portfolio website built entirely in Python to showcase coding projects and apps.
+A modern portfolio web application built with **Streamlit**, designed to showcase projects, skills, and contact information in an interactive way.  
 
+---
 
-## About
-This project is a personal portfolio site developed with Python. It serves as a showcase for programming projects and applications.
+## 🚀 Live Demo
+👉 [Click here to view the app](https://your-streamlit-deployment-link)  
 
+---
 
-## Features
-- Display project highlights and summaries  
-- Contact form with email sending functionality  
-- Structured layout for easy navigation  
-- Modular and easy-to-extend codebase
+## ✨ Features
+- 📂 Display projects with descriptions and images  
+- 📊 Showcase skills, tools, and technologies  
+- 📬 Contact form with email functionality  
+- 🎨 Clean and responsive UI powered by Streamlit  
 
-## Tech Stack
-- Python (for backend logic)  
-- `Home.py` — main application script  
-- `send_mail.py` — handles email sending (likely via SMTP or an API)  
-- `data.csv` — data source for projects or content  
-- Static assets and templates stored in `images/` and `pages/` directories  
-- Optional: additional dependencies configurable via `requirements.txt`
+---
 
-## Project Structure
+## 🛠 Tech Stack
+- [Streamlit](https://streamlit.io/)  
+- Python 3.x  
+- Pandas / CSV for project data  
+- SMTP (for contact form emails)  
+
+---
+
+## 📂 Project Structure
 ```
 portfolio-app/
-├── .devcontainer/           # Dev container config (if using VS Code DevContainers)
-├── images/                  # Image assets
-├── pages/                   # HTML templates or page modules
-├── Home.py                  # Entry point or main application logic
-├── send_mail.py             # Handles sending emails from contact form
-├── data.csv                 # Dataset for project listings or content
-├── .gitignore               # Files to ignore in Git version control
-└── README.md                # This file
+├── images/           # Image assets
+├── pages/            # Additional Streamlit pages
+├── Home.py           # Main Streamlit app
+├── send_mail.py      # Handles contact form emails
+├── data.csv          # Project data
+├── requirements.txt  # Dependencies
+└── README.md         # Project documentation
 ```
 
-## Getting Started
+---
 
-### Prerequisites
-- Python 3.x installed
-- Recommended: create and activate a virtual environment
-- Dependencies (if any) listed in `requirements.txt`
+## ⚙️ Installation & Setup
 
-### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/Fazil-Behbudov/portfolio-app.git
    cd portfolio-app
    ```
-2. (Optional) Set up virtual environment:
+
+2. Create a virtual environment (optional but recommended):
    ```bash
    python -m venv venv
-   source venv/bin/activate  # Unix/macOS
-   venv\Scripts\activate     # Windows
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
    ```
+
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-### Running the App
-Depending on your setup, run the app with:
-```bash
-python Home.py
-```
-Then open your browser and navigate to `http://localhost:<PORT>`.
+4. Run the app locally:
+   ```bash
+   streamlit run Home.py
+   ```
 
-## Usage
-- View your portfolio on the homepage.
-- Submit the contact form to send an email (ensure `send_mail.py` is configured correctly with SMTP credentials or API keys).
-- Projects and details are pulled from `data.csv`; edit this file to modify project listings.
+---
 
-## Deployment
-*(Optional: Describe how to deploy the app, such as using Heroku, Vercel, or a VPS.)*
+## 📦 Deployment
+The app is deployed on **Streamlit Cloud**.  
+You can deploy your own version easily by pushing this repository to GitHub and linking it with [Streamlit Community Cloud](https://streamlit.io/cloud).  
 
-## Contributing
+---
+
+## 🤝 Contributing
 Contributions are welcome!  
-1. Fork the project  
-2. Create a new branch (`git checkout -b feature/my-feature`)  
-3. Make your changes and commit (`git commit -m 'Add some feature'`)  
-4. Push to the branch (`git push origin feature/my-feature`)  
-5. Open a Pull Request
+Feel free to fork this repo, make improvements, and submit a pull request.  
 
-## License
-*(Add your license here, e.g., MIT, Apache 2.0, or “All rights reserved.”)*
+---
 
-## Contact
-Fazil Behbudov — [your email or portfolio link]
+## 📜 License
+This project is licensed under the MIT License.  
 
-Project Link: [https://github.com/Fazil-Behbudov/portfolio-app](https://github.com/Fazil-Behbudov/portfolio-app)
+---
 
+## 👤 Author
+**Fazil Behbudov**  
+🔗 [GitHub Profile](https://github.com/Fazil-Behbudov)  
+
+---
